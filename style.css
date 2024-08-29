@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color: black;
+    font-size: 24px;
+}
+p{
+    font-size: 20px;
+    font-style: bold;;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 20px;
+   gap: 16px;
+} 
+.one{
+float: center;
+width: 200px;
+height: 200px;
+object-fit: cover;
+margin-top: 20px;
+margin-bottom: auto;
+max-width: 1500px;
+margin-left: auto;
+
+}
+.hover-underline:hover {
+    text-decoration: underline;
+    color: black;
+    font-size: 24px;
+}
+ strong{
+    font-size: small;
+    color: rgb(92, 11, 11);
+ } 
+ 
+
+
+
+
+
